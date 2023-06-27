@@ -42,9 +42,11 @@ table {
 	border-spacing: 0;
 }
 
-a{
-    text-decoration: none;;
+a { 
+	text-decoration: none;
+	color: #000;	
 }
-body *{
-	box-sizing: border-box;
+input, button {
+	border: none;
+	background: none;
 }
