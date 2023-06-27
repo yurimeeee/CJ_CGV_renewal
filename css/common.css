@@ -1,0 +1,99 @@
+/* css reset의 3step : common.css 로드하기만 하면, reset.css 불러오도록 세팅 */
+@import url(reset.css);
+
+/* Noto-sans KR 폰트 적용(regular,400/medium,500/bold,700) */ 
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+@import url(header.css);
+
+
+
+
+
+
+/* LAYOUT */
+body *{
+  font-family: 'Noto Sans KR', sans-serif;
+} 
+.container{
+  width: 1272px;
+  margin: 0 auto;
+}
+.cf:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.hidden{
+  display: none;       
+}
+
+/* 각 섹션별 간격 (4줄) */
+.big_pd{
+  padding: 54px 0;
+}
+
+/* 헤더/푸터 각각 상단/하단 간격(1줄) */
+.sm_pd{
+  padding: 27px 0;
+}
+
+/* 타이틀과 콘텐츠 사이 간격 (40px) */
+.main_mb{
+  margin-bottom: 40px;
+}
+
+/* 전체보기 버튼*/
+.all_btn{
+  
+  border-radius: 4px;
+  border: 1px solid #063d6c;
+  padding: 7px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.5);
+  color:#063d6c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* 캐러셀 버튼 */
+
+
+
+/* TYPOGRAPHY */
+
+
+
+.main_tt{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color:#3a3a3a;
+}
+.main_p{
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: medium;
+}
+.sub_tt{
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.sub_p{
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  color:#303030;
+}
+.con_tt{
+  font-size: 14px;
+  line-height: 14px;
+}
+.foot_tt{
+  font-size: 13px;
+  line-height: 27px;
+}
+
+
