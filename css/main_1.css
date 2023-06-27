@@ -11,9 +11,9 @@
 /* 예고편 영상 */
 
   
-  .playbtn, .pausebtn {
-    width: 140px;
-    height: 140px;
+.playbtn, .pausebtn {
+    width: 120px;
+    height: 120px;
     background: #e64947;
     border-radius: 50%;
     margin: 0 auto;
@@ -72,7 +72,6 @@
 
 
 .slidewrapper{
-    
     position: relative;
 
 }
@@ -80,6 +79,7 @@
 .MovieChart_wrap {
     position: relative;
     overflow: hidden;
+
 }
 
 /* 무비차트 ui */
@@ -132,17 +132,15 @@
     opacity: 0.2;
 }
 
+.poster:hover:after {
+    background: #000;
+    opacity: 0.5;
+}
 
-/* .poster_img::before{
-    content:'';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: linear-gradient(to top, #000, rgba(0,0,0,0));
-    opacity: 0.8;
-} */
+#prev.disabled,
+#next.disabled {
+    display: none;
+}
 
 .carousel button{
     background: rgba(58,58,58,.7);
@@ -151,7 +149,7 @@
     border-radius: 50%;
     color: #fff;
     font-size: 32px;
-}
+} 
 
 .slidewrapper .mC_prevBtn {
     top: 138px;
@@ -199,6 +197,7 @@
     font-weight: medium;
     text-align: center;
     border-radius: 12px;
+    line-height: 40px;
 }
 
 .ticketing {
@@ -206,13 +205,15 @@
     color: #fff;
     top: 121px;
     left: 46px;
+    margin-bottom: 6px;
+    line-height: 32px;
 }
 
 .detail {
     background: #fff;
     color: #3a3a3a;
-    top: 121px;
-
+    top: 167px;
+    left: 46px;
 }
 
 
