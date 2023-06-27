@@ -1,0 +1,278 @@
+@font-face {
+    font-family: "CJonly";
+    src: url('image/CJ+ONLYONE+Medium.ttf') format('truetype')
+}
+@font-face {
+    font-family: "CJonly";
+    src: url('image/CJ+ONLYONE+Bold.ttf') format('truetype')
+}
+
+
+/* 예고편 영상 */
+
+  
+  .playbtn, .pausebtn {
+    width: 140px;
+    height: 140px;
+    background: #e64947;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 40px;
+  }
+
+
+
+
+
+/* 무비차트 & 상영예정작 */
+.movieChart {
+    position: relative;
+}
+
+.movieChart_tt {
+    /* width: 100%; */
+    text-align: center;
+    padding-top:54px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+}
+
+.movieChart_tt a:first-child{
+    color: #e64947;
+    font-weight: bold;
+    margin-right: 30px;
+    border-bottom: 4px solid #e64947;
+}
+
+.movieChart_tt a:first-child.active{
+    color:#3a3a3a;
+    font-weight: medium;
+}
+
+.movieChart_tt a:last-child {
+    color:#3a3a3a;
+    font-weight: medium;
+}
+
+.movieChart_tt a:last-child:hover {
+    color: #e64947; 
+    font-weight: bold;
+    border-bottom: 4px solid #e64947;
+}
+
+.movieChart .all_btn {
+    position: absolute;
+    top: 115px;
+    right: 0;
+}
+
+
+
+
+.slidewrapper{
+    
+    position: relative;
+
+}
+/* 무비차트 div */
+.MovieChart_wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 무비차트 ui */
+.MovieChart_slide_wrap {
+    left: 0;
+    top: 0;
+    width: 2800px;
+    height: 404px;
+    transition: left 0.2s ease-in;
+}
+
+/* 무비차트 li */
+.MovieChart_slide {
+    width: 222px;
+    position: relative;
+    margin-right: 40px;
+    float: left;
+}
+
+.MovieChart_slide h3 {
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: -0.03em;
+}
+
+.MovieChart_slide .poster_img {
+    width: 100%;
+}
+
+.MovieChart_slide .angelimint {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.poster {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.poster:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #000, rgba(0,0,0,0));
+    opacity: 0.2;
+}
+
+
+/* .poster_img::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #000, rgba(0,0,0,0));
+    opacity: 0.8;
+} */
+
+.carousel button{
+    background: rgba(58,58,58,.7);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 32px;
+}
+
+.slidewrapper .mC_prevBtn {
+    top: 138px;
+    left: -25px;
+    position: absolute;
+}
+
+.slidewrapper .mC_nextBtn {
+    top: 138px;
+    right: -22px;
+    position: absolute;
+}
+
+.MovieChart_wrap span {
+    float: left;
+}
+
+.MovieChart_wrap span:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.egg {
+    color: #303030;
+    margin: 15px 12px 0 0;
+}
+
+.egg img{
+    vertical-align: top;
+}
+
+.screenType {
+    margin-top: 10px;
+}
+
+
+
+.poster_hover a{
+    position: absolute;
+    display: block;
+    font-size: 17px;
+    width: 130px;
+    height: 41px;
+    font-weight: medium;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.ticketing {
+    background: #e64947;
+    color: #fff;
+    top: 121px;
+    left: 46px;
+}
+
+.detail {
+    background: #fff;
+    color: #3a3a3a;
+    top: 121px;
+
+}
+
+
+
+
+
+
+/* .main1_slide_wrapper {
+    position: relative;
+    height: 410px;
+}
+
+.movie_chart_slide{
+    width: 2600px;
+    position: relative;
+    
+}
+
+.main1_slide_wrapper li {
+    float: left;
+    margin-right: 40px;  
+    position: relative; 
+    width: 222px;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+.main1_slide_wrapper li:after{
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #000, rgba(0,0,0,0));
+    opacity: 0.15;
+}
+
+.main1_slide_wrapper li img{
+    width:100%;
+}
+
+.MovieChart_btn {
+    position: absolute;
+    background: rgba(58,58,58,.7);
+    top:calc(50% - 60px);
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+}
+
+.main1_slide_wrapper .movie_chart_carousel {
+    position: absolute;
+    background: rgba(58,58,58,.7);
+    transform:translateY(-50%);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+} */
