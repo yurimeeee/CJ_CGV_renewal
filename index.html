@@ -10,7 +10,212 @@
     <link rel="stylesheet" href="css/defult.css">
 </head>
 <body>
-<!-- HEADER 시작 (유림) -->
+<!-- HEADER 시작 (유림21) -->
+  <header>
+    <section class="ad_top"> 
+      <div class="ad_wrap">
+        <a href="#"><img src="images/add_elemental.jpg" alt=""></a>
+      </div>
+      <button class="ad_close"><i class="fa-solid fa-xmark"></i></button>
+    </section>
+    <div class="header container sm_pd">
+      <h1 class="logo">
+        <a href=""><img src="images/logo.png" alt="CGV"></a>
+        <span>CULTUREFLEX</span>
+      </h1>
+      <nav class="user_nav">
+        <ul class="cf">
+          <li class="user_li">
+            <a href="#">
+              <i class="fa-solid fa-lock"></i>
+              <span>로그인</span> 
+            </a>
+          </li>
+          <li class="user_li">
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+                <span>회원가입</span> 
+            </a>
+          </li>
+          <li class="user_li">
+            <a href="#">
+                <i class="fa-solid fa-user-plus"></i>
+                <span>MY CGV</span> 
+            </a>
+          </li>
+          <li>
+            <div class="search_btn" id="modal_open">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="menuwrap">
+      <div class="menu_bg">
+        <div class="main_menu">
+          <ul class="menu cf">
+            <li>
+              <h2 class="menu_li"><a href="#">영화</a></h2>   
+              <ul class="submenu devide">
+                  <li><a href="#">영화</a></li>
+                  <li><a href="#">무비차트</a></li>
+                  <li><a href="#">아트하우스</a></li>
+                  <li><a href="#">ICECON</a></li>
+              </ul>   
+              <div class="past_qr">
+                <a href="#" class="past">
+                  <img src="images/paconi.png" alt="">
+                  <p>패스트오더</p>
+                </a>
+                <div class="qr">
+                  <img src="images/App_qrcode.gif" alt="">
+                  <p>앱 다운로드<br><strong>CGV앱</strong>에서 더 편리하게 이용하세요</p>
+                </div> 
+              </div>             
+            </li>
+            <li>
+              <h2 class="menu_li"><a href="#">극장</a></h2>
+              <ul class="submenu devide">
+                  <li><a href="#">극장</a></li>
+                  <li><a href="#">CGV극장</a></li>
+                  <li><a href="#">특별관</a></li>
+              </ul>                      
+            </li>
+            <li>
+              <h2 class="menu_li"><a href="#">예매</a></h2>  
+              <ul class="submenu devide">
+                  <li><a href="#">예매</a></li>
+                  <li><a href="#">빠른예매</a></li>
+                  <li><a href="#">상영스케줄</a></li>
+              </ul>               
+            </li>
+            <li>
+              <h2 class="menu_li"><a href="#">스토어</a></h2> 
+              <ul class="submenu devide">
+                  <li><a href="#">스토어</a></li>
+                  <li><a href="#">패키지</a></li>
+                  <li><a href="#">영화관람권</a></li>
+                  <li><a href="#">기프트카드</a></li>
+                  <li><a href="#">콤보</a></li>
+                  <li><a href="#">씨네샵</a></li>
+              </ul>   
+            </li>
+            <li>
+              <h2 class="menu_li"><a href="#">프로모션</a></h2>    
+              <ul class="submenu">
+                  <li><a href="#">프로모션</a></li>
+                  <li><a href="#">영화/예매</a></li>
+                  <li><a href="#">CGV 할인정보</a></li>
+                  <li><a href="#">멤버십/클럽</a></li>
+              </ul>            
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div id="lightbox">
+      <div class="modal_box">
+        <div class="modal_left">
+            <div class="search_m">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <h2>영화 검색</h2>
+            <form action="">
+              <label for="moviesearch">영화명</label>
+              <div class="search_box">
+                <input type="text" name="moviesearch" id="moviesearch" placeholder="Search...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+              
+            </form>
+            <div class="latest_wrap">
+              <h3>최근검색어</h3>
+              <a href="">전체삭제</a>
+            </div>
+            <ul class="latest cf">
+                <li>해리포터 <i class="fa-solid fa-xmark"></i></li>
+                <li>범죄도시3 <i class="fa-solid fa-xmark"></i></li>
+                <li>더 퍼스트 슬램덩크 <i class="fa-solid fa-xmark"></i></li>
+            </ul>
+        </div>
+        <div class="modal_right">
+            <h2>인기 검색어</h2>
+            <div>
+              <ol class="popular_w">
+                <li>
+                  <a href="#">
+                    <em>1</em>
+                    <span>엘리멘탈</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>2</em>
+                    <span>IMAX</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>3</em>
+                    <span>CGV연남</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>4</em>
+                    <span>인어공주</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>5</em>
+                    <span>범죄도시 3</span>
+                  </a>
+                </li>
+              </ol>
+              <ol class="popular_w">
+                <li>
+                  <a href="#">
+                    <em>6</em>
+                    <span>슬픔의 삼각형</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>7</em>
+                    <span>CGV 할인</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>8</em>
+                    <span>토이스토리 5</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>9</em>
+                    <span>여름날 우리</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <em>10</em>
+                    <span>가디언즈 오브.. </span>
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="search_btn modal_close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+  </header>
+<!-- <section class="lorem">
+</section> -->
 <!-- HEADER 끝 (유림) -->
 
 <!-- MAIN_1 시작 (이원) -->
