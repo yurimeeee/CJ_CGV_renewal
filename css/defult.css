@@ -1,16 +1,8 @@
-@font-face {
-    font-family: "CJonly";
-    src: url('image/CJ+ONLYONE+Medium.ttf') format('truetype')
-}
-@font-face {
-    font-family: "CJonly";
-    src: url('image/CJ+ONLYONE+Bold.ttf') format('truetype')
-}
+/* HEADER 시작 (유림) */
+ /* HEADER 끝 (유림) */
 
-
+/* MAIN_1 시작 (이원) */
 /* 예고편 영상 */
-
-  
 .playbtn, .pausebtn {
     width: 120px;
     height: 120px;
@@ -20,10 +12,6 @@
     color: #fff;
     font-size: 40px;
   }
-
-
-
-
 
 /* 무비차트 & 상영예정작 */
 .movieChart {
@@ -68,27 +56,23 @@
     right: 0;
 }
 
-
-
-
 .slidewrapper{
     position: relative;
-
 }
+
 /* 무비차트 div */
 .MovieChart_wrap {
     position: relative;
     overflow: hidden;
-
 }
 
 /* 무비차트 ui */
 .MovieChart_slide_wrap {
     left: 0;
     top: 0;
-    width: 2800px;
+    position: relative;
     height: 404px;
-    transition: left 0.2s ease-in;
+    transition: left 0.4s ease-in;
 }
 
 /* 무비차트 li */
@@ -103,10 +87,6 @@
     text-align: center;
     margin-top: 20px;
     letter-spacing: -0.03em;
-}
-
-.MovieChart_slide .poster_img {
-    width: 100%;
 }
 
 .MovieChart_slide .angelimint {
@@ -132,24 +112,10 @@
     opacity: 0.2;
 }
 
-.poster:hover:after {
-    background: #000;
-    opacity: 0.5;
-}
-
 #prev.disabled,
 #next.disabled {
     display: none;
 }
-
-.carousel button{
-    background: rgba(58,58,58,.7);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 32px;
-} 
 
 .slidewrapper .mC_prevBtn {
     top: 138px;
@@ -186,11 +152,8 @@
     margin-top: 10px;
 }
 
-
-
 .poster_hover a{
     position: absolute;
-    display: block;
     font-size: 17px;
     width: 130px;
     height: 41px;
@@ -199,6 +162,16 @@
     border-radius: 12px;
     line-height: 40px;
 }
+
+.poster:hover:after {
+    background: #000;
+    opacity: 0.5;
+}
+
+.poster_hover {
+    display: none;
+}
+
 
 .ticketing {
     background: #e64947;
@@ -215,65 +188,10 @@
     top: 167px;
     left: 46px;
 }
+/* MAIN_1 끝 (이원) */
 
+/* MAIN_2 시작 (수연) */
+/* MAIN_2 끝 (수연) */
 
-
-
-
-
-/* .main1_slide_wrapper {
-    position: relative;
-    height: 410px;
-}
-
-.movie_chart_slide{
-    width: 2600px;
-    position: relative;
-    
-}
-
-.main1_slide_wrapper li {
-    float: left;
-    margin-right: 40px;  
-    position: relative; 
-    width: 222px;
-    border-radius: 15px;
-    overflow: hidden; 
-}
-
-.main1_slide_wrapper li:after{
-    content:'';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: linear-gradient(to top, #000, rgba(0,0,0,0));
-    opacity: 0.15;
-}
-
-.main1_slide_wrapper li img{
-    width:100%;
-}
-
-.MovieChart_btn {
-    position: absolute;
-    background: rgba(58,58,58,.7);
-    top:calc(50% - 60px);
-    width: 50px;
-    height: 50px;
-    font-size: 32px;
-    border-radius: 50%;
-    color: #fff;
-    display: block;
-}
-
-.main1_slide_wrapper .movie_chart_carousel {
-    position: absolute;
-    background: rgba(58,58,58,.7);
-    transform:translateY(-50%);
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 50%;
-} */
+/* MAIN_3 시작 (정석) */
+/* MAIN_3 끝 (정석) */
