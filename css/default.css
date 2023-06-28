@@ -2,7 +2,6 @@
 .ad_top{
   position: relative;
   background:#000;
-  /* overflow: hidden; */
 }
 .ad_top img{
   width: 100%;
@@ -30,7 +29,7 @@
   color: #edebeb;
   position: absolute;
   left: 90%;
-  bottom:-22px;
+  bottom:-21px;
   z-index: 8;
 }
 
@@ -58,7 +57,6 @@ nav{
   right:0;
   display: inline-block;
 } 
-
 .user_nav li{
   float: left;
   font-size: 14px;
@@ -69,18 +67,16 @@ nav{
 }
 .user_li a{ 
   color: #8a8a8a;
+  transition: .3s;
 }
 .user_nav i{
   font-size: 28px;
   display:block;
   margin-bottom: 6px;
 }
-
-/* 네비게이션 호버 효과 */
 .user_li:hover a{ 
   color: #f5a39d;
 }
-
 .search_btn{
   border: 2px solid #e2e2e2;
   width: 70px;
@@ -89,6 +85,7 @@ nav{
   background-color: rgb(255, 255, 255);
   display: block;
   transform: translateY(-20%); 
+  transition: .3s;
 }
 .search_btn i{
   color:#e64947;
@@ -128,24 +125,16 @@ nav{
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
   /* overflow: hidden; */
 }
-
-
 .menu {	
   height:54px;
   display: inline-block;
-/*   
-	overflow:hidden; */
-	/* background: linear-gradient(to bottom, #ccc 50px, rgba(255,255,255,0.5) 50px);  */
 	transition: 0.3s;
   text-align: center;
 }
-
-/* 메뉴 호버시 텍스트 효과 */
 .menu > li:hover .menu_li a{
   color: #e64947;
   font-weight: bold;
 }
-
 .menu > li {
   float:left;
   position: relative;
@@ -211,10 +200,9 @@ nav{
   font-weight: bold;
 }
 
-
 /* modal */
-
 .modal_box{
+  box-sizing: border-box;
   position: absolute;
   width: 790px;
   height: 280px;
@@ -312,13 +300,14 @@ nav{
   width: 300px;
   height: 40px;
   margin-left: 10px;
+  padding-left: 10px;
 }
 .search_box i{
   color: #f2a4a3;
   font-size: 20px;
   line-height: 40px;
-  position: relative;
-  left:8px;
+  /* position: relative;
+  left:8px; */
 }
 .search_box button{
   border: none;
@@ -328,7 +317,7 @@ nav{
   width: 250px;
   height: 34px;
   border-radius: 5px;
-  padding: 10px;
+
   border: none;
   background: none;
 }
