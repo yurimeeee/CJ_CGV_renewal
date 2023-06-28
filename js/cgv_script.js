@@ -1,5 +1,5 @@
+/* HEADER 시작 (유림) */
 /* ADD BANNER */
-
 let adClose = document.querySelector('.ad_close'),
     ad =  document.querySelector('.ad_wrap');
 
@@ -11,25 +11,8 @@ adClose.addEventListener('click',()=>{
     adClose.innerHTML = '<i class="fa-solid fa-xmark"></i>'
   }
 })
-    
-
-// adClose.addEventListener('click',()=>{
-//     if (ad.style.display === "none") {
-//         ad.style.display = "block";
-//         adClose.innerHTML = '<i class="fa-solid fa-xmark"></i>'
-//       } else {
-//         ad.style.display = "none";
-//         adClose.innerHTML = '<i class="fa-solid fa-angle-down"></i>'
-//       }
-    
-// })
-
-
-
-
 
 /* MENU DROPDOWN */
-
 let mainMenu = document.querySelectorAll('.menu li'),
     subMenu = document.querySelectorAll('.submenu'),
     menuDown = document.querySelector('.menu_bg'),
@@ -56,7 +39,6 @@ mainMenu.forEach(item=>{
 
 
 /* MENU STICKY */
-
 let menuSticky = document.querySelector('.main_menu'),
     menuWrap = document.querySelector('.menuwrap')
     menuLi = document.querySelectorAll('.menu_li a'),
@@ -81,9 +63,7 @@ window.addEventListener('scroll',()=>{
     }
 })
 
-
 /* SEARCH MODAL */
-
 let lightbox = document.querySelector('#lightbox'),
     modalOpen = document.querySelector('#modal_open'),
     modalClose = document.querySelector('.modal_close'),
@@ -98,3 +78,13 @@ modalClose.addEventListener('click',()=>{
   modal.style.display = 'none';
   lightbox.classList.remove('visible');
 });
+/* HEADER 끝 (유림) */
+
+/* MAIN_1 시작 (이원) */
+/* MAIN_1 끝 (이원) */
+
+/* MAIN_2 시작 (수연) */
+/* MAIN_2 끝 (수연) */
+
+/* MAIN_3 시작 (정석) */
+/* MAIN_3 끝 (정석) */
