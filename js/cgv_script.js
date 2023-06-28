@@ -129,14 +129,6 @@ nextBtn.addEventListener('click',()=>{
   });
 /* MAIN_1 끝 (이원) */
 
-/* MAIN_2 시작 (수연) */
-/* MAIN_2 시작 (수연) */
-
-/* MAIN_3 시작 (정석) */
-/* MAIN_3 끝 (정석) */
- /* HEADER 끝 (유림) */
-
-
 
 /* MAIN_2 시작 (수연) */
 /* MAIN_2 끝 (수연) */
