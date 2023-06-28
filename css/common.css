@@ -101,6 +101,7 @@ body {
 .all_btn i { margin-right: 6px; }       
 
 .carousel {
+  width:50px;
   background: rgba(58, 58, 58, .7);
   border-radius:50%;
   height:50px;  
