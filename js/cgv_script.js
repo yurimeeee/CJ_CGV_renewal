@@ -469,21 +469,13 @@ let formend = document.querySelectorAll('.footer_form a');
 let scromamt = window.scrollY;
 gotoTop.addEventListener('click', function (e) {
   e.preventDefault();
-  // window.scrollTo({
-  //   top: 0,
-  //   left: 0,
-  //   behavior: 'smooth'
-  // });
   window.scrollTo({top: 0, behavior: 'smooth'});
 });
-
-
 
 gotoBottom.addEventListener('click', function (e) {
   e.preventDefault();
   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
 });
-
 
 window.addEventListener('scroll',()=>{
 scromamt = window.scrollY;
