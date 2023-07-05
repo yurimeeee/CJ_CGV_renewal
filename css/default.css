@@ -812,13 +812,13 @@ body.sticky {
 }
 
 .MovieChart_slide:hover .poster:after {
-  /* top: 100%; */
   opacity: 0;
 }
 
 .MovieChart_slide:hover .poster:before {
   background-color: rgba(0, 0, 0, .5);
   background-image: none;
+  border-radius: 15px;
 }
 
 .MovieChart_slide .angelimint {
@@ -1172,9 +1172,6 @@ body.sticky {
 /* MAIN_2 끝 (수연) */
 
 /* MAIN_3 시작 (정석) */
-
-/* body layout */
-
 /* 중앙정렬 */
 .main_total>.main3_container {
   text-align: center;
@@ -1182,14 +1179,10 @@ body.sticky {
 }
 
 /* main3 */
-
-/* 기준잡고 버튼 위치조절 */
-
 .main3_btn {
   position: absolute;
   right: 0;
-  top: 0%;
-  transform: translateY(113px);
+  top: 63px;
 }
 
 .test_screening {
@@ -1227,7 +1220,6 @@ body.sticky {
   left: 0;
   bottom: 0;
   top: 0;
-
 }
 
 .test_screening .screen_cell:hover img {
@@ -1272,14 +1264,12 @@ body.sticky {
   line-height: 27px;
 }
 
-
 /* main4 */
 
 .main4_allbox {
   width: 635px;
   float: left;
   box-sizing: border-box;
-
 }
 
 .main4_left_box h2 {
@@ -1297,8 +1287,6 @@ body.sticky {
   width: 635px;
   height: 354px;
   background: #8a8a8a;
-
-
 }
 
 .main4_box .main4_left_box .main4_cgv {
@@ -1359,7 +1347,6 @@ p.span {
   font-size: 20px;
   font-weight: bold;
   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, .3);
-
 }
 
 .main4_mapbox i {
@@ -1418,7 +1405,6 @@ p.span {
   position: absolute;
   bottom: 56px;
   margin-right: 10px;
-
 }
 
 .helpbtn a {
@@ -1480,7 +1466,6 @@ footer li:last-child {
   padding-right: 30px;
 }
 
-
 footer li:first-child {
   padding-left: 15px;
 }
@@ -1489,7 +1474,6 @@ footer li:first-child {
   white-space: pre-line;
   line-height: 27px;
 }
-
 
 .footer_write {
   position: relative;
@@ -1527,8 +1511,6 @@ footer li:first-child {
 }
 
 /* aside */
-
-
 aside {
   position: fixed;
   right: 15%;
@@ -1569,7 +1551,6 @@ aside .circle_pop {
   border-radius: 50%;
   cursor: pointer;
 }
-
 
 .circle_pop a {
   width: 150px;
@@ -1615,5 +1596,4 @@ aside .circle_pop {
     top: 5%;
   }
 }
-
 /* MAIN_3 끝 (정석) */
