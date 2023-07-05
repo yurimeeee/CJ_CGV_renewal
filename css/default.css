@@ -152,7 +152,7 @@ header {
   text-align: center;
   position: relative;
 }
-
+/* logo */
 .logo a {
   background: url(/images/logo.png) no-repeat center/cover;
   display: block;
