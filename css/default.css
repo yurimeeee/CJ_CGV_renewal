@@ -154,7 +154,7 @@ header {
 }
 /* logo */
 .logo a {
-  background: url(/images/logo.png) no-repeat center/cover;
+  background: url(../images/logo.png) no-repeat center/cover;
   display: block;
   width: 117px;
   height: 53px;
