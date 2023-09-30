@@ -97,18 +97,6 @@ adClose.addEventListener('click', () => {
   }
 })
 
-let login = document.querySelector('.login'),
-  loginIcon = document.querySelector('.login a i');
-
-login.addEventListener('mouseover', () => {
-  loginIcon.classList.replace('fa-lock', 'fa-lock-open');
-  loginIcon.style.transform = `translateX(4px)`;
-})
-login.addEventListener('mouseout', () => {
-  loginIcon.classList.replace('fa-lock-open', 'fa-lock')
-  loginIcon.style.transform = `translateX(0)`;
-})
-
 /* MIAN MENU DROPDOWN */
 // MENU DROPDOWN
 let mainMenu = document.querySelectorAll('.menu li'),
@@ -268,7 +256,6 @@ function moveslide(num) {
       videocurrentIdx = 0;
       for (slide of allSlides) {
         slide.classList.remove('active');
-        console.log('active제거');
       }
       allSlides[4].classList.add('active');
     }, 500);
